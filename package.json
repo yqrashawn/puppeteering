@@ -1,6 +1,6 @@
 {
   "name": "puppeteering",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "simple test framework using chrome puppeteer",
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "puppeteer": "^0.9.0"
+  },
+  "devDependencies": {
+    "puppeteering": "^1.0.4"
   }
 }
