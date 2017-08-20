@@ -3,7 +3,7 @@ const path = require('path');
 const test = require('./lib/test.js');
 const log = require('./lib/output.js');
 const configpath = path.join(process.cwd(), 'puppeteering.js');
-const config = require('./puppeteering.js');
+const config = require(configpath);
 
 const testUrl = config.url;
 const testPort = config.port;
