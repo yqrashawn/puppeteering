@@ -1,8 +1,14 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
-const test = require('./lib/test');
-const log = require('./lib/output');
-const config = require(path.join(process.cwd(), 'puppeteering.js'));
+const test = require('./lib/test.js');
+const log = require('./lib/output.js');
+const configpath = path.join(process.cwd(), 'puppeteering.js');
+// const config = require(configpath);
+const config = require('./puppeteering.js');
+console.log(config);
+console.log(configpath);
+console.log(log);
+console.log(test);
 
 const testUrl = config.url;
 const testPort = config.port;
@@ -25,7 +31,8 @@ async function run(beforeLoad, afterLoad) {
   });
 }
 
-module.export = {
+module.exports = {
   run,
+  error: log.error,
   test,
 };
