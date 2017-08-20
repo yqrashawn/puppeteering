@@ -1,6 +1,6 @@
 {
   "name": "puppeteering",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "simple test framework using chrome puppeteer",
   "repository": {
     "type": "git",
