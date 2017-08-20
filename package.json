@@ -18,10 +18,6 @@
   "author": "yqrashawn",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.1.0",
-    "puppeteer": "^0.9.0"
-  },
-  "devDependencies": {
-    "puppeteering": "^1.0.4"
+    "chalk": "^2.1.0"
   }
 }
