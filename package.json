@@ -2,6 +2,10 @@
   "name": "puppeteering",
   "version": "1.0.0",
   "description": "simple test framework using chrome puppeteer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yqrashawn/puppeteering.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "test"
